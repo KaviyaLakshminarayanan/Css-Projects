@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+input[search]:focus{
+    border: red;
+}
+.hide{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.search-bar{
+    width: 10%;
+    line-height: 2;
+    border-radius: 4px;
+    border: 1px solid yellowgreen;
+    transition: all 0.5s ease-in-out;
+}
+.search-bar:focus{
+    border-color: rgb(105, 81, 4);
+    width: 40%;
+}
+.search-bar:focus::placeholder{
+    color: transparent;
+}
