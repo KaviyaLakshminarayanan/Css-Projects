@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 209, 209);
+}
+.btn-border {
+  background: linear-gradient(
+    115deg,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    Orange,
+    red
+  );
+  padding: 2px;
+  transition: all 1.75s ease-in;
+}
+button {
+  border: none;
+  background: black;
+  color: white;
+  padding: 1em 1.5em;
+  cursor: pointer;
+}
+.btn-border:hover {
+  background: linear-gradient(
+    -115deg,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    Orange,
+    red
+  );
+}
