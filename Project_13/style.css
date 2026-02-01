@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+    height: 150px;
+    width: calc(150px*8/5);
+    background-color: blue;
+    display: flex;
+    position: relative;
+}
+.cross{
+background-color: yellow;
+height: calc(150px*1/5);
+align-self: center;
+}
+.cross1{align-self: center;
+    width: 100%;
+
+}
+.cross2{
+    width: 150px;
+    position: absolute;
+    transform: rotate(90deg);
+}
