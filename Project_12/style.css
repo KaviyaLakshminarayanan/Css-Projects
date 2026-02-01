@@ -1,0 +1,19 @@
+body{
+    display: flex;align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    width:calc(200px*3/2);
+    height: 200px;
+    background-color: white;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+.circle{
+    width: calc(200px *3/5);
+    height: calc(200px *3/5);
+    background-color: red;
+    border-radius: 50%;
+}
