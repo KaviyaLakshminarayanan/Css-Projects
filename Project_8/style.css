@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    width: calc(200px*3/2);
+    height: 200px;
+    display: flex;
+    /* background-color: burlywood; */
+}
+.blue {
+    background-color: blue;
+    height: 100%;}
+.white{
+    background-color: white;
+    height: 100%;
+}
+.red{
+    height: 100%;
+    background-color: red;
+}
+.strip{
+    flex-grow: 1;
+}
