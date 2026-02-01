@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: lavenderblush;
+    animation: Rotate 1s infinite alternate;
+}
+@keyframes Rotate{
+    0%{
+        transform: rotate(-45deg);
+        background-color: red;
+    }
+    15%{
+       background-color: orange;
+    }
+    28%{
+        background-color: yellow;
+        
+    }50%{
+        background-color: yellowgreen;
+        
+    }
+    65%{
+        background-color: blueviolet;
+
+    }
+    80%{
+        background-color: indigo;
+
+    }
+    100%{
+        transform: rotate(190deg);
+        background-color: violet;
+    }
+}
