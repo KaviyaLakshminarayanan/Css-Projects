@@ -1,0 +1,36 @@
+.circle {
+  border-radius: 50%;
+}
+.circle4 {
+  width: 50px;
+  height: 50px;
+  background-color: lavender;
+}
+.circle3 {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+}
+.circle2 {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+}
+.circle1 {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.container .circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
