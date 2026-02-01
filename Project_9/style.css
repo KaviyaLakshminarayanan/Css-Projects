@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: calc(150px*5/3);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 195, 195);
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow ;
+}
+.strip{
+    flex-grow: 1;
+}
