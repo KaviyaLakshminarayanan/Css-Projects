@@ -1,0 +1,40 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.7s ease;
+
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.card {
+  width: 16em;
+  height: 200px;
+  background-color: pink;
+  padding: 5px;
+  border-radius: 9px;
+  transition: all 0.7s ease;
+}
+.card-img img {
+  width: 100%;
+  height: 150px;
+  border-radius: 9px;
+  object-fit: cover;
+}
+.icons {
+  display: none;
+}
+.card:hover {
+  background-color: rgb(254, 112, 136);
+  color: white;
+}
+.card:hover {
+  height: 230px;
+}
+.card:hover .icons {
+  display: block;
+  color: white;
+}
