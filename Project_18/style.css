@@ -1,0 +1,35 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:root{
+    --height:200px
+}
+.card{
+    border: 2px solid black;
+    height: var(--height);
+    width: calc(var(--height)*2/3);
+    padding: 2px;
+    display: grid;
+    border-radius: 4px;
+    align-content:space- ;
+    color: red;
+}
+.top{
+    padding: .2em;
+    font-size: 18px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    row-gap: 30px;
+    font-size: 3em;
+}
+
+.bottom{
+    transform: rotate(180deg);
+}
