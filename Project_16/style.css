@@ -1,0 +1,28 @@
+body,.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+label{
+    width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: .25em;
+}
+.toggle-input{
+    display: none;
+}
+.toggle-switch{
+    height: 40px;
+    width: 40px;
+    background: black;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.toggle-input:checked ~ .toggle-switch{
+    background: blue;
+    transform: translateX(150%);
+    
+}
